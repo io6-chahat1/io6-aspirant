@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .avengers{
+        width: 40vw;
+        height: 100vh;
+        border: 1px solid black;
+        margin: auto;
+        justify-content: center;
+        background-color:rgb(215, 251, 251);
+       }
+       .logo{
+        width: 100px;
+        height: 100px;
+        margin: 5%;
+       }
+       .name{
+        color: brown;
+        text-decoration: underline;
+        font-size: 50px;
+        font-family: cursive;
+        margin-top: 6%;
+        margin-left: -2%;
+
+       }
+       .container{
+        display: flex;
+       }
+       .box1, .box2, .box3, .box4{
+        height: 120px;
+        width: 120px;
+        
+        border-radius: 10%;
+        background-color: green;
+        margin: auto;
+        
+        
+       }
+
+       
+       .boxes{
+        justify-content: space-around;
+        
+        
+        border-radius: 10%;
+       
+        margin: auto;
+        z-index: 5;
+      
+        
+       }
+       .boxes .box1{
+        background-image: url(./155415_926732.jpg);
+        background-size: cover;
+        transform: rotate(45deg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        box-shadow: 2px 2px 2px 2px black;
+        right: 41%;
+        top: 9%;
+
+       }
+       .boxes .box2{
+        background-image: url(./image-asset.jpeg);
+        background-size: cover;
+        height: 175px;
+        width: 177px;
+        transform: rotate(45deg);
+        position: absolute;
+        box-shadow: 2px 2px 2px 2px black;
+        right: 44%;
+        top: 30%;
+        z-index: 2;
+
+       }
+       .boxes .box3{
+        background-image: url(./hulk-thor-ragnarok-2-1548346471.jpg);
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        transform: rotate(45deg);
+        position: absolute;
+        box-shadow: 2px 2px 2px 2px black;
+        right: 34%;
+        top: 58%;
+       }
+       .boxes .box4{
+        height: 230px;
+        width: 230px;
+        transform: rotate(45deg);
+        position: absolute;
+        box-shadow: 2px 2px 2px 2px black;
+        right: 21%;
+        top: 25%;
+       }
+       .line1{
+        width: 100px;
+        height: 50px;
+        border-bottom-left-radius: 42%;
+        border-top-left-radius: 44%;
+        z-index: 1;
+        border: 1px solid black;
+        background-color: green;
+        transform: rotate(45deg);
+       position: absolute;
+       right: 51%;
+        top: 26%;
+        
+       }  
+       .line2{
+        width: 67px;
+    height: 50px;
+    border-bottom-left-radius: 42%;
+    border-top-left-radius: 44%;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: green;
+    transform: rotate(321deg);
+    position: absolute;
+    right: 55%;
+    top: 55%;}
+            .line3{
+        width: 100px;
+        height: 50px;
+        border-bottom-left-radius: 42%;
+        border-top-left-radius: 44%;
+        z-index: 1;
+        border: 1px solid black;
+        background-color: green;
+        transform: rotate(45deg);
+       position: absolute;
+       right: 21%;
+        top: 25%;}
+        .line4{
+        width: 100px;
+        height: 50px;
+        border-bottom-left-radius: 42%;
+        border-top-left-radius: 44%;
+        z-index: 1;
+        border: 1px solid black;
+        background-color: green;
+        transform: rotate(45deg);
+       position: absolute;
+       right: 21%;
+        top: 25%;} 
+
+        .thor ,.hulk{
+            color: rgb(41, 200, 41);
+         
+            margin-left: 10%;
+            top: 10%;
+            }
+            .iron-man{
+                color: black;
+              
+                margin-left: 10%;
+                top: 10%;
+                
+            }
+            p{
+                color: black;
+               
+                margin-left: 10%;
+                top: 10%;
+
+            }
+            .para{
+                display: block;
+                top: 10%;
+                text-align: justify;
+            }
+
+</style>
+
+<body>
+    <div class="avengers">
+     <div class="container">
+            <img class="logo"
+             src="./362fc9e226e24c58251be386ea52c9dc.png" 
+             alt="logo avengers">
+             <div class="name">Avengers</div>
+             </div>
+<div class="boxes">
+    <div class="box1"> </div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+   <div class="box4"></div>
+   <div class="line1"></div>
+   <div class="line2"></div>
+   <div class="line3"></div>
+   <div class="line4"></div>
+</div>
+<div class="para">
+    <h2 class="thor">Thor</h2>
+    <h2 class="iron-man">Iron Man</h2>
+    <h2 class="hulk">Hulk</h2>
+    <hr>
+    <p class="follow">Follow us on</p>
+
+</div>
+    
+    </div>
+
+    
+</body>
+</html>

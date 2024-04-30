@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Sleeping on a Pool</title>
+<style>
+  body {
+    background-color: #30d5c8; /* Teal background to represent water */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pool {
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .cat {
+    width: 15vw;
+    height: 110px;
+    background-color: #580f2f; /* Brown shade for the cat */
+    position: absolute;
+    top: 166px;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border-top-left-radius: 81px;
+    /* border-bottom-left-radius: 10px; */
+    border-top-right-radius:81px ;
+   /* border-bottom-right-radius: 90px; */
+  }
+  .cat-head{
+    width: 10vw;
+    
+    height: 90px;
+    background-color: #580f2f;
+    position: absolute;
+    top: 175px;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border-top-left-radius: 225px;
+    border-bottom-left-radius: 61px;
+    border-top-right-radius: 231px;
+    border-bottom-right-radius: 90px;
+}
+
+  
+  .diving-board {
+    width: 27vw;
+    height: 25px;
+    background-color: #be84c5; /* Red diving board */
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    z-index: 6;
+ }
+  .pool1{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+   border-left: 60px solid rgb(229, 227, 211);
+    left: 47%;
+    }
+  .cat-tail{
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+    border-left: 22px solid #580f2f;;
+    left: 59.9%;
+    z-index: 7;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 90px ;
+    border-bottom-right-radius: 100px;
+  }
+  .nose{
+    height: 13px;
+    width: 13px;
+    color: rgb(227, 0, 0);
+    background-color: red;
+    left: 41.5%;
+    top: 23%;
+    border-radius: 100%;
+    z-index: 100;
+    position: relative;
+   }
+   .ear-1, .ear-2{
+    width: 0;
+    height: 0;
+    border-bottom: 46px solid#580f2f;
+    border-left: 33px solid transparent;
+    position: relative;
+   }
+  .ear-1{
+    bottom: 90px;
+    left: 38%;
+    bottom: -14%;
+    transform: rotate(-27deg);
+
+}
+
+  .ear-2{
+    bottom: 90px;
+    left:42%;
+    bottom: -6%;
+    transform: rotate(-27deg);
+}
+.hair-1, .hair-2, .hair-3, .hair-4{
+height: 3px;
+width: 41px;
+position: relative;
+z-index: 50;
+
+background-color: white;
+}
+.hair-1{
+  left:37%;
+  top: 8%;
+transform: rotate(13deg);
+}
+.hair-2{
+  left: 37%;
+  top: 9%;
+  transform: rotate(-12deg);
+}
+.hair-3{
+  left: 43%;
+  top: 7%;
+  transform: rotate(-16deg);
+}
+.hair-4{
+  left: 43%;
+  top: 8%;
+  transform: rotate(12deg);
+}
+
+</style>
+</head>
+<body>
+<div class="pool">
+  <div class="diving-board"></div>
+  <div class="cat"></div>
+  <div class="cat-head"></div>
+  <div class="pool1"></div>
+  <div class="cat-tail"></div>
+  
+<div class="nose"></div>
+<div class="ear-1"></div>
+<div class="ear-2"></div>
+<div class="hair-1"></div>
+<div class="hair-2"></div>
+<div class="hair-3"></div>
+<div class="hair-4"></div>
+
+
+
+</div>
+</body>
+</html>

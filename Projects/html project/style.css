@@ -11,9 +11,23 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    
-    
 } 
+section{
+    padding: 2rem 9%;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: black;
+    color: #fff;
+    padding: 2rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: orangered;
+}
 
 header{
     position: fixed;
@@ -58,4 +72,44 @@ header .navbar a:hover{
     border: 2px;
     background-color: rgb(183, 182, 182);
     border-radius: 5px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./assets/images/images.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+}
+section .home .content .padharo{
+    height: 10vh;
+    width: 10vh;
+}
+h3{
+    font-family: cursive;
+    font-size: 9rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}p{
+    font-family: cursive;
+    font-size: 3rem;
+    color: rgb(112, 17, 2);
+   line-height: 1.5rem; 
+   padding: 1rem 0;
+   letter-spacing: 2px;
+
+}
+header .icons{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    width: 10vw;
+}
+header .icons . fas fa-heart{
+
+height: 100vh;
+width: 100vw;
 }

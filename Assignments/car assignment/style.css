@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.city{
+    width: 100%;
+    height: 100vh;
+  /* overflow: hidden; */
+    background-image: url(./road.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.car2{
+    width: 30px;
+    position: absolute;
+    animation: car-2 10s ease-out infinite ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes car-2 {
+    0%{
+        top: 60%;
+        right: -6%;
+        transform: rotate(-90deg);
+
+    }
+    20%{
+        top: 60%;
+        right: 15%;
+        transform: rotate(-90deg);
+        
+
+    }
+    40%{
+        top: 60%;
+        right: 37%;
+        transform: rotate(-90deg);
+
+        
+    }
+    60%{
+        top: 60%;
+        right: 38.5%;
+        transform: rotate(0deg);
+    }
+    80%{
+        top: -6%;
+        right: 38.5%;
+        transform: rotate(0deg);
+    }
+    100%{top: -6%;
+        right: 38.5%;
+        transform: rotate(0deg);
+
+    }
+
+}
+.car{
+    width: 30px;
+    position: absolute;
+    animation: car-1 5s ease-in infinite ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes car-1 {
+    0%{
+        top: 58%;
+        left: -6%;
+        transform: rotate(90deg);
+
+    }
+    25%{
+        top: 58%;
+        left: 23%;
+        transform: rotate(90deg);
+        
+
+    }
+    50%{
+        top: 58%;
+        left: 25%;
+        transform: rotate(180deg);
+
+        
+    }
+    75%{
+        top: 75%;
+        left: 25%;
+        transform: rotate(180deg);
+    }
+    100%{
+        top: 100%;
+        left: 25%;
+        transform: rotate(180deg);
+    }
+
+}
+
+.car3{
+    width: 50px;
+    position: absolute;
+    animation: car-3 5s ease-in-out infinite ;
+}
+
+@keyframes car-3{
+    0%{
+        left: 24%;
+        top: -6%;
+        transform: rotate(90deg);
+    }
+    20%{
+        top: 10%;
+        left: 24%;
+        transform: rotate(90deg);
+    }
+    40%{
+        top: 10%;
+        left: 30%;
+        transform: rotate(0deg);
+
+    }
+    60%{
+        left: 59%;
+        top: 10%;
+        transform: rotate(0deg);
+
+    }
+    80%{
+        left: 59%;
+        top: 10%;
+        transform: rotate(-90deg);
+
+    }
+    100%{
+        left: 59%;
+        top: -6%;
+        transform: rotate(-90deg);
+
+    }
+
+}
+.car4{
+    width: 45px;
+    position: absolute;
+    animation: car-4 15s ease-in-out infinite ;
+
+}
+@keyframes car-4{
+    0%{top: 37.5%;
+        left: -6%;
+        transform: rotate(270deg);
+
+    }
+    5%{top: 37.5%;
+        left: 7%;
+        transform: rotate(270deg);
+
+    }
+10%{top: 37.5%;
+    left: 7%;
+    transform: rotate(360deg);
+
+}
+15%{top: 37.5%;
+    left: 7%;
+    transform: rotate(360deg);
+
+ }
+20%{top: 58%;
+    left: 7%;
+    transform: rotate(270deg);
+
+}
+25%{top: 58%;
+    left: 24%;
+    transform: rotate(180deg);
+
+}
+ 30%{top: 35.5%;
+    left: 24%;
+    transform: rotate(180deg);
+
+}
+35%{top: 35.5%;
+    left: 26%;
+    transform: rotate(270deg);
+
+}
+40%{top: 35.5%;
+    left:40%;
+    transform: rotate(270deg);
+
+
+}
+45%{top: 35.5%;
+    left: 41%;
+    transform: rotate(180deg);
+
+}
+50%{top: 25%;
+    left: 42%;
+    transform: rotate(180deg);
+
+}
+55%{top: 23.5%;
+    left: 42%;
+    transform: rotate(270deg);
+
+}
+60%{top: 23.5%;
+    left: 59%;
+    transform: rotate(270deg);
+
+}
+65% {top: 23.5%;
+    left: 59%;
+    transform: rotate(360deg);
+
+}
+70%{top: 35.5%;
+    left: 59%;
+    transform: rotate(360deg);
+
+}
+75%{top: 35.5%;
+    left: 59%;
+    transform: rotate(270deg);
+
+}
+80%{top: 36%;
+    left: 75%;
+    transform: rotate(270deg);
+
+
+}
+85%{top: 36%;
+    left: 75%;
+    transform: rotate(360deg);
+
+
+}
+90%{top: 55%;
+    left: 75%;
+    transform: rotate(360deg);
+
+
+}
+95%{top: 57%;
+    left: 75%;
+    transform: rotate(270deg);
+
+
+
+}
+100%{top: 58%;
+    left: 100%;
+    transform: rotate(270deg);
+
+}
+}
+.car5{width: 30px;
+    position: absolute;
+    animation: car-5 15s ease-in-out infinite ;
+    transform: rotate(180deg);
+
+}
+@keyframes car-5{
+0%{
+    top:13.5%;
+    left: 84.5%;
+    visibility: hidden;
+    transform: rotate(deg);
+}
+5%{
+    top:12.5%;
+    left: 85%;
+    transform: rotate(deg);
+
+}
+10%{top:11.5%;
+    left: 85%;
+    transform: rotate(270deg);
+
+}
+15%{top:11.5%;
+    left: 85%;
+    transform: rotate(275deg);
+
+}
+20%{top:11.5%;
+    left: 87%;
+    transform: rotate(280deg)
+
+}
+25%{top:12%;
+    left: 87%;
+    transform: rotate(290deg)
+
+}30%{top:12.5%;
+    left: 89.5%;
+    transform: rotate(300deg)
+}
+35%{top:13%;
+    left: 89.5%;
+    transform: rotate(310deg)}
+40%{
+    top:14%;
+        left: 89.5%;
+        transform: rotate(320deg)}
+
+        45%{
+            top:15%;
+                left: 89.7%;
+                transform: rotate(330deg)}
+                50%{
+                    top:16%;
+                        left: 91.8%;
+                        transform: rotate(340deg)}
+                        55%{
+                            top:21%;
+                                left: 91.8%;
+                                transform: rotate(350deg)}
+                                60%{
+                                    top:23%;
+                                        left: 91.8%;
+                                        transform: rotate(60deg)}
+                                        65%{
+                                            top:24%;
+                                                left: 91.8%;
+                                                transform: rotate(50deg)}
+                                                70%{
+                                                    top:25%;
+                                                        left: 91.8%;
+                                                        transform: rotate(30deg)}
+                                                        75%{top:24%;
+                                                            left: 91.8%;
+                                                            transform: rotate(10deg)
+
+                                                        }
+                                                        80%{top:31.5%;
+                                                            left: 88%;
+                                                            transform: rotate(0deg)
+
+                                                        
+
+                                                        }
+                                                        85%{
+                                                            transform: rotate(0deg);
+                                                            top: 31.5%;
+                                                            left: 88%;
+                                                        }
+90%{transform: rotate(-90deg);
+                                                            top: 50%;
+                                          left: 88%;
+
+                                                        }
+  95%{transform: rotate(0deg);
+                                                            top: 50%;
+                                                            left: 94.5%;
+
+                                                        }
+                                                        100%{top: 100%;
+                                                            left:94.5% ;
+                                                            transform: rotate(0deg);
+
+                                                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+

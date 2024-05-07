@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    scroll-behavior: smooth;
+
+}
+body{
+    min-height: 100vh;
+    display: block;
+}
+.app{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+@media (max-width: 900px){
+    .navbar .logo{
+        width: 120px;
+    }
+    
+}
+@media (max-width: 1050px) {
+    .navbar .logo{
+        width: 150px;
+    }
+    
+}img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.navbar-menu{
+    list-style: none;
+    color: #49557e;
+    display: flex;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+    margin-inline-start: 0px;
+
+    margin-inline-end: 0px;
+
+    padding-inline-start: 40px;     
+    unicode-bidi: isolate;
+}
+@media (max-width: 750px) {
+    .navbar-menu{
+        display: none;
+    }
+    
+}
+@media (max-width: 900px) {
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button
+    {
+padding: 7px 20px;
+font-size: 15px;
+    }
+    
+}
+@media (max-width: 1050px) {
+    .navbar-menu{
+        
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button
+    {
+
+    }
+    
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.navbar-right{
+    display: flex;
+    align-self: center;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.navbar button{
+    background: transparent;
+    border: 1px solid tomato;
+    cursor: pointer;
+    color: #49557e;
+    border-radius: 50px;
+    transition: .3s;
+}
+button{
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px ;
+
+}

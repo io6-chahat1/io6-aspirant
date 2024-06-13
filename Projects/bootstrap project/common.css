@@ -1,0 +1,53 @@
+nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%; /* Ensure the navbar spans the entire width */
+    z-index: 1000;
+    height: 80px;
+}
+
+ul {
+    gap: 30px;
+}
+
+.right {
+    gap: 10px;
+}
+
+.right i {
+    height: 30px;
+    width: 20px;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+.right i:hover {
+    color: aqua;
+}
+
+li {
+    display: inline;
+    padding: 0;
+}
+
+li .line {
+    height: 2px;
+    width: 0px;
+    background-color: none;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover .line {
+    height: 2px;
+    width: 50%;
+    background-color: aqua;
+}
+
+.nav-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+a.nav-link {
+    padding: 0px 0px;
+}

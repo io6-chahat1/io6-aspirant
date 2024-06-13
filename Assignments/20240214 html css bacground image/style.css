@@ -32,9 +32,10 @@ ul li {
   }
   
   ul li a:hover {
-    background-color: rgb(12, 75, 211);
+    background-color: rgb(60, 96, 185);
     color: white;
     text-decoration: underline;
+    border-radius: ;
   }
   .parent{
     display: flex;

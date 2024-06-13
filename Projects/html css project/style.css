@@ -74,7 +74,7 @@ button{
 .main{
     height: 70vh;
     width: 100%;
-    background-image: url(../rajasthan/assets/images/1000_F_59663502_Q0oCrYRXnIO5R07PehAz03duabpJnM23.jpg);
+    background-image: url(./assets/images/1000_F_59663502_Q0oCrYRXnIO5R07PehAz03duabpJnM23.jpg);
     background-size: cover;
   
    margin: auto;
@@ -339,6 +339,7 @@ h6{
   margin:0.5% ;
   font-size: 30px;
   color: white;
+  cursor: pointer;
 }
 
  .site-map-cont .site-map {

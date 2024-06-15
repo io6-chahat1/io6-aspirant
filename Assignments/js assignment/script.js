@@ -1,8 +1,8 @@
 //print table of 1-50
 
-for(let i = 1; i<= 50; i++){
-    console.log(i)
-}
+// for(let i = 1; i<= 50; i++){
+//     console.log(i)
+// }
 // // for(let i = 20; i <= 30; i++){
 // //     for (let j = 1; j <= 10; j++){
 // //         console.log(`${i} x ${j} = ${i * j}`);
